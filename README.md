@@ -57,7 +57,7 @@ the master process will keep running so that user could access the test report u
 Tsung web interface.
 
 ```console
-$ kubectl create -f tsung-slave.yaml --namespace tsung
+$ kubectl create -f tsung-master.yaml --namespace tsung
 ```
 
 ### Access Tsung web interface
