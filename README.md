@@ -41,7 +41,7 @@ $ kubectl create -f target.yaml --namespace tsung
 We will inject Tsung config to master pod using `ConfigMap`. Modify the settings if you like.
 
 ```console
-$ kubeclt create -f tsung-config.yaml --namespace tsung
+$ kubectl create -f tsung-config.yaml --namespace tsung
 ```
 
 ### Launch Tsung slave
